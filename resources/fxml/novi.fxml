@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+
+    <columnConstraints>
+        <ColumnConstraints />
+        <ColumnConstraints />
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+    </rowConstraints>
+   <children>
+      <ImageView id="idslika" pickOnBounds="true" preserveRatio="true" GridPane.columnSpan="3" GridPane.rowSpan="2">
+         <image>
+            <Image url="@../images/povecanje_540.jpg" />
+         </image></ImageView>
+      <Label text="IntelliJ IDEA 2019.3.1" GridPane.rowIndex="4">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="10.0" right="5.0" top="5.0" />
+         </GridPane.margin></Label>
+      <Label text="image: http://www.ebizmags.com/wp-content/uploads/2009/07/povecanje_540.jpg" GridPane.rowIndex="5">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="10.0" right="5.0" top="5.0" />
+         </GridPane.margin></Label>
+      <Label text="github.com/msalihovic3/zadaca-3-msalihovic3" GridPane.rowIndex="6">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="10.0" right="5.0" top="5.0" />
+         </GridPane.margin></Label>
+      <Label text="Mirnesa Salihovic" GridPane.rowIndex="7">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="10.0" right="5.0" top="5.0" />
+         </GridPane.margin></Label>
+      <Label text="Elektrotehnički fakultet Sarajevo" GridPane.rowIndex="8">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="10.0" right="5.0" top="5.0" />
+         </GridPane.margin></Label>
+   </children>
+
+</GridPane>
